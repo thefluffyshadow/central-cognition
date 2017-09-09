@@ -8,5 +8,5 @@
 
 (defn -main [& args]
    (println (repeatedly 1 (partial shuffle ["Hi", "Hello", "Howdy", "Greetings", "Hey", "G'day", "Good day",
-                                           "How are you", "What's up", "How goes it", "How do you do", "Hi there"]))))
+                                            "How are you", "What's up", "How goes it", "How do you do", "Hi there"]))))
 (-main)
